@@ -1,12 +1,15 @@
-import Layout from './Layout/Layout';
+import Layout from './components/Layout';
 import logo from './logo.svg';
-import Navbar from './Navbar/Navbar';
+import Navbar from './components/Navbar';
+import Signup from './components/registration/Signup';
 
 
 function App() {
   return (
     <div>
-    <Layout />
+      {/* <Navbar /> */}
+      <Layout />
+      <Signup />
     </div>
   );
 }

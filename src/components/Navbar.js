@@ -7,6 +7,7 @@ import Box from '@mui/material/Box';
 
 const Navbar = () => {
   return (
+    <>
     <AppBar>
       <Toolbar>
         <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: 'center', width: "100%"}} component='div'>
@@ -30,9 +31,10 @@ const Navbar = () => {
         </Box>
       </Toolbar>
     </AppBar>
-    //  <Box component='div'>
-    //    <MenuIcon />
-    //  </Box>
+    {/* <Box component='div'>
+      <MenuIcon />
+    </Box> */}
+    </>
   );
 };
 
